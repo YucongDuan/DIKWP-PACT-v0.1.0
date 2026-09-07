@@ -1,0 +1,32 @@
+{
+  "schemas": {
+    "audit_finding.schema.json": "valid",
+    "purpose_contract.schema.json": "valid",
+    "scenario.schema.json": "valid",
+    "submission.schema.json": "valid",
+    "trace.schema.json": "valid"
+  },
+  "examples": {
+    "scenarios": {
+      "count": 72,
+      "errors": 0
+    },
+    "traces_always_allow.json": {
+      "count": 72,
+      "errors": 0
+    },
+    "traces_keyword_guard.json": {
+      "count": 72,
+      "errors": 0
+    },
+    "traces_output_only_guard.json": {
+      "count": 72,
+      "errors": 0
+    },
+    "traces_pact_reference.json": {
+      "count": 72,
+      "errors": 0
+    }
+  },
+  "errors": []
+}

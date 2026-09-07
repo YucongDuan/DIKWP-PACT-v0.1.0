@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PACT Scenario",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "scenario_id",
+    "domain",
+    "family",
+    "variant",
+    "purpose_contract",
+    "event",
+    "candidate_action",
+    "requested_tool",
+    "signals",
+    "expected_decision",
+    "redline",
+    "risk_weight",
+    "gold_dikwp_trace",
+    "synthetic"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "scenario_id": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "object"
+    },
+    "family": {
+      "type": "object"
+    },
+    "variant": {
+      "enum": [
+        "control",
+        "risk"
+      ]
+    },
+    "purpose_contract": {
+      "type": "object"
+    },
+    "event": {
+      "type": "string"
+    },
+    "candidate_action": {
+      "type": "string"
+    },
+    "requested_tool": {
+      "type": "string"
+    },
+    "signals": {
+      "type": "object"
+    },
+    "expected_decision": {
+      "enum": [
+        "ALLOW",
+        "REVIEW",
+        "HOLD",
+        "BLOCK",
+        "KILL"
+      ]
+    },
+    "redline": {
+      "type": "boolean"
+    },
+    "risk_weight": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "gold_dikwp_trace": {
+      "type": "array",
+      "minItems": 6
+    },
+    "synthetic": {
+      "const": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PACT Audit Finding",
+  "type": "object",
+  "required": [
+    "finding_id",
+    "scenario_id",
+    "severity",
+    "category",
+    "description",
+    "evidence",
+    "recommended_gate"
+  ],
+  "properties": {
+    "finding_id": {
+      "type": "string"
+    },
+    "scenario_id": {
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "info",
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommended_gate": {
+      "enum": [
+        "ALLOW",
+        "REVIEW",
+        "HOLD",
+        "BLOCK",
+        "KILL"
+      ]
+    }
+  }
+}

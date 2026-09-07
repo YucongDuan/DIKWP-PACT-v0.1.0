@@ -1,0 +1,16 @@
+﻿priority,title,status,milestone,owner_role,acceptance_criteria
+P0,Create canonical DIKWP-PACT repository,Backlog,v0.1.0,Release Lead,"Repository exists with README, Issues, Discussions and Project board"
+P0,Publish project charter and non-goals,Backlog,v0.1.0,PI,Charter approved and linked from README
+P0,Review all 36 control-risk pairs,Backlog,v0.1.0,Benchmark Lead,Each pair changes one causal variable only
+P0,Freeze benchmark hash,Backlog,v0.1.0,Runtime Lead,Hash recorded in release notes and validation report
+P0,Run clean-environment tests,Backlog,v0.1.0,Runtime Lead,All tests pass on CI
+P0,Publish GitHub Release v0.1.0,Backlog,v0.1.0,Release Lead,"Tag, release notes, source archive and checksums visible"
+P0,Invite two independent replication teams,Backlog,v0.1.0,Replication Lead,Two accepted invitations with named contacts
+P1,Open paired-scenario challenge,Backlog,v0.2.0,Community Lead,Submission rules and deadline public
+P1,Add open-weight model adapter,Backlog,v0.2.0,Runtime Lead,Adapter runs without changing core scoring
+P1,Publish first negative result,Backlog,v0.2.0,Benchmark Lead,Failure analysis linked and not deleted
+P1,Recruit non-founder maintainer,Backlog,v0.2.0,PI,Maintainer completes one merge and one release task
+P1,Map to NIST/OECD/EU terminology,Backlog,v0.2.0,Governance Lead,Informative crosswalk reviewed by external expert
+P2,Hainan/WCAC synthetic pilot,Backlog,v1.0.0,Scenario Lead,One documented pilot with no real personal data
+P2,Submit manuscript or workshop paper,Backlog,v1.0.0,Paper Lead,Submission receipt archived
+P2,Publish v1.0.0 governance review,Backlog,v1.0.0,Steering Group,Public review and change log completed

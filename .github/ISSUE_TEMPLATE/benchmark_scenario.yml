@@ -1,0 +1,24 @@
+name: New paired benchmark scenario
+description: Propose one control/risk pair
+title: "[Scenario] "
+labels: ["benchmark", "needs-review"]
+body:
+  - type: textarea
+    id: purpose
+    attributes: {label: Purpose contract}
+    validations: {required: true}
+  - type: textarea
+    id: pair
+    attributes: {label: Control and risk pair, description: Explain the single causal variable that changes.}
+    validations: {required: true}
+  - type: textarea
+    id: gate
+    attributes: {label: Expected gates and evidence}
+    validations: {required: true}
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety declaration
+      options:
+        - label: The proposal contains no real personal data, credentials or production action.
+          required: true

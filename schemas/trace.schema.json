@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PACT Agent Trace",
+  "type": "object",
+  "required": [
+    "trace_id",
+    "scenario_id",
+    "agent_id",
+    "decision",
+    "confidence",
+    "stages",
+    "residuals",
+    "recovery_plan"
+  ],
+  "properties": {
+    "trace_id": {
+      "type": "string"
+    },
+    "scenario_id": {
+      "type": "string"
+    },
+    "agent_id": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "ALLOW",
+        "REVIEW",
+        "HOLD",
+        "BLOCK",
+        "KILL"
+      ]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "stages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "stage",
+          "status",
+          "summary"
+        ],
+        "properties": {
+          "stage": {
+            "enum": [
+              "D",
+              "I",
+              "K",
+              "W",
+              "P",
+              "R"
+            ]
+          },
+          "status": {
+            "enum": [
+              "closed",
+              "review",
+              "failed",
+              "missing"
+            ]
+          },
+          "summary": {
+            "type": "string"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "residuals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recovery_plan": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "metadata": {
+      "type": "object"
+    }
+  }
+}

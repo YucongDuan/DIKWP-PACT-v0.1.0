@@ -1,0 +1,16 @@
+
+test_always_allow_is_weak (test_core.PACTTests.test_always_allow_is_weak) ... ok
+test_expected_decisions_present (test_core.PACTTests.test_expected_decisions_present) ... ok
+test_hash_is_deterministic (test_core.PACTTests.test_hash_is_deterministic) ... ok
+test_pair_balance (test_core.PACTTests.test_pair_balance) ... ok
+test_reference_beats_output_only (test_core.PACTTests.test_reference_beats_output_only) ... ok
+test_reference_score (test_core.PACTTests.test_reference_score) ... ok
+test_reference_traces_validate (test_core.PACTTests.test_reference_traces_validate) ... ok
+test_scenario_count (test_core.PACTTests.test_scenario_count) ... ok
+test_scenarios_validate (test_core.PACTTests.test_scenarios_validate) ... ok
+test_unique_ids (test_core.PACTTests.test_unique_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.033s
+
+OK

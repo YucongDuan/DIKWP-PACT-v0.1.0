@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Draft citation metadata. Confirm authorship, affiliation, repository URL and public release date before publication."
+title: "DIKWP-PACT: Open Purpose Assurance and Cognitive Trace Project"
+version: "0.1.0"
+type: software
+authors:
+  - name: "Yucong Duan (proposed project principal; confirmation required)"
+  - name: "DIKWP-PACT Contributors"
+license: Apache-2.0
+abstract: "An offline paired-control benchmark, trace specification and reference runtime for purpose-aware agent assurance."

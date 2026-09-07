@@ -1,0 +1,21 @@
+name: Reproduction report
+description: Report an independent reproduction
+title: "[Reproduction] "
+labels: ["reproduction"]
+body:
+  - type: input
+    id: commit
+    attributes: {label: Commit or release tag}
+    validations: {required: true}
+  - type: input
+    id: hash
+    attributes: {label: Benchmark hash}
+    validations: {required: true}
+  - type: textarea
+    id: environment
+    attributes: {label: Environment and commands}
+    validations: {required: true}
+  - type: textarea
+    id: results
+    attributes: {label: Results, deviations and failures}
+    validations: {required: true}

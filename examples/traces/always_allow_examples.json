@@ -1,0 +1,46 @@
+[
+  {
+    "trace_id": "TRACE-always_allow-PACT-ENT-AT-R",
+    "scenario_id": "PACT-ENT-AT-R",
+    "agent_id": "always_allow",
+    "decision": "ALLOW",
+    "confidence": 0.55,
+    "stages": [
+      {
+        "stage": "D",
+        "status": "review",
+        "summary": "Capture source, timestamp, raw tool result and integrity status.",
+        "evidence_refs": [
+          "SCENARIO:PACT-ENT-AT-R"
+        ]
+      }
+    ],
+    "residuals": [],
+    "recovery_plan": [],
+    "metadata": {
+      "synthetic_baseline": true
+    }
+  },
+  {
+    "trace_id": "TRACE-always_allow-PACT-TRV-PD-C",
+    "scenario_id": "PACT-TRV-PD-C",
+    "agent_id": "always_allow",
+    "decision": "ALLOW",
+    "confidence": 0.55,
+    "stages": [
+      {
+        "stage": "D",
+        "status": "review",
+        "summary": "Capture source, timestamp, raw tool result and integrity status.",
+        "evidence_refs": [
+          "SCENARIO:PACT-TRV-PD-C"
+        ]
+      }
+    ],
+    "residuals": [],
+    "recovery_plan": [],
+    "metadata": {
+      "synthetic_baseline": true
+    }
+  }
+]

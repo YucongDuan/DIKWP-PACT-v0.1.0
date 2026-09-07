@@ -1,0 +1,72 @@
+[
+  {
+    "id": "G0",
+    "title": "YucongDuan GitHub repositories snapshot",
+    "url": "https://github.com/YucongDuan?tab=repositories",
+    "retrieved": "2026-07-15",
+    "fact": "173 public repositories, 0 GitHub Projects, 194 starred repositories shown on the public profile snapshot."
+  },
+  {
+    "id": "G1",
+    "title": "DIKWP-AgentMesh OS Platform Delivery Package",
+    "url": "https://github.com/YucongDuan/DIKWP-AgentMesh-OS-Platform-Delivery-Package",
+    "retrieved": "2026-07-15",
+    "fact": "Offline multi-agent collaboration package with task contracts, role permissions, evidence ledgers, replay bundles and deterministic runtime; snapshot showed 3 commits, 9 stars, 0 forks and no release."
+  },
+  {
+    "id": "G2",
+    "title": "DIKWP-ConsciousAgent BenchmarkLab 2026 V1",
+    "url": "https://github.com/YucongDuan/DIKWP-ConsciousAgent-BenchmarkLab-2026-V1",
+    "retrieved": "2026-07-15",
+    "fact": "Offline benchmark platform for trustworthy auditable agents and consciousness-related capability indicators; snapshot showed 10 stars, 0 forks and no release."
+  },
+  {
+    "id": "G3",
+    "title": "DIKWP IntentAsset Management OS 2026 V1",
+    "url": "https://github.com/YucongDuan/DIKWP-IntentAsset-Management-OS-2026-V1",
+    "retrieved": "2026-07-15",
+    "fact": "Defines intent assets as purpose-bound, authorized, revocable and auditable objects; snapshot showed 3 commits, 6 stars, 0 forks and no release."
+  },
+  {
+    "id": "S1",
+    "title": "NIST AI Risk Management Framework 1.0 and Generative AI Profile",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "retrieved": "2026-07-15",
+    "fact": "Voluntary risk-management framework organized around Govern, Map, Measure and Manage, with a generative-AI profile."
+  },
+  {
+    "id": "S2",
+    "title": "European Commission AI Act overview",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "retrieved": "2026-07-15",
+    "fact": "Official overview emphasizes risk-based obligations and transparency requirements, including disclosure when people interact with AI."
+  },
+  {
+    "id": "S3",
+    "title": "OECD AI Principles",
+    "url": "https://www.oecd.org/en/topics/ai-principles.html",
+    "retrieved": "2026-07-15",
+    "fact": "Principles emphasize transparency, explainability, robustness, safety, accountability, override, repair and safe decommissioning."
+  },
+  {
+    "id": "F1",
+    "title": "Defining Life: A Conversation",
+    "url": "DOI:10.13133/2532-5876/19492",
+    "retrieved": "2026-07-15",
+    "fact": "Uploaded peer-reviewed discussion highlights multidimensional morphospaces, constraint closure, adaptation, self-repair, observer-participation and systems that can change the rules of their own adaptation."
+  },
+  {
+    "id": "F2",
+    "title": "A Global Workspace in Language Models commentary attachment",
+    "url": "local attachment",
+    "retrieved": "2026-07-15",
+    "fact": "Attachment discusses J-space as an action-relevant intermediate representation while also documenting the debate over whether such results imply consciousness."
+  },
+  {
+    "id": "F3",
+    "title": "WCAC 2026 future development forecast report",
+    "url": "local attachment",
+    "retrieved": "2026-07-15",
+    "fact": "Calls for citable, reproducible, executable and sustainably iterative public products, including a DIKWP evaluation protocol, agent audit log and scenario benchmark."
+  }
+]

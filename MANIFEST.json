@@ -1,0 +1,382 @@
+{
+  "project": "DIKWP-PACT",
+  "version": "0.1.0",
+  "generated": "2026-07-15",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/benchmark_scenario.yml",
+      "size": 770,
+      "sha256": "9c94cbb2d0e8f42f09da3601b54d75e0796fd37dd2193e412a18051f3c945c52"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "size": 332,
+      "sha256": "4b339f675c7da2865cd8910b2f45f474b4b5c75035d4535c3d18c08581bf652b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/reproduction_report.yml",
+      "size": 595,
+      "sha256": "33b7a460afbe4c4a104246bb1bc37b4caeaaa8b2b280791afbe7412b6c96d2b6"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "size": 242,
+      "sha256": "5f566cad2647db293dd4c249d1a5ce5cde3cd644d02a9a188f71c8c9612bbaa0"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 454,
+      "sha256": "6fd27906190503620044930cea6ca458f035f6d8f5f2965773963d6ac6bea285"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 181,
+      "sha256": "6e0292b39ed024f69a7b8aca3ffb61fcddd3f68f11f18af14fa57a1783da2684"
+    },
+    {
+      "path": "CITATION.cff",
+      "size": 518,
+      "sha256": "1dd8bd26d4ae3071f91e83024d38a45df4ea90922a5418a26b22b908b244c665"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "size": 213,
+      "sha256": "3072b98ad8640f97577c84d1ab47c1ac8b392407bd796e6a91f46435c82a4eb1"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 681,
+      "sha256": "b9bdb15a5e6539dfa61511de8fd1981bf283b9615d3079ddf68dcfb7c6e6c181"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "size": 216,
+      "sha256": "4252b3ae806ff6c71e4bd632c80374f26ad0d9b8e994fd622d8741fc10df2832"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "size": 467,
+      "sha256": "ca9730e113d686c8630532d2bcb87dae564548b13f4c1287b4aa4063db1d0f30"
+    },
+    {
+      "path": "LICENSE",
+      "size": 505,
+      "sha256": "592ae2ccda2b8025898239932a013b49a6a164366b9d96118acb81360d20738e"
+    },
+    {
+      "path": "PROJECT_CHARTER.md",
+      "size": 1291,
+      "sha256": "fef3efddfbbb360f4ed8fb71eb6c78f39a76336417a768368a24ec16593efa60"
+    },
+    {
+      "path": "QUICKSTART_CN.md",
+      "size": 415,
+      "sha256": "3a0f9d48a544615f7fa2c65bd98b33401a5bda8450c2030d090f99628313b159"
+    },
+    {
+      "path": "README.md",
+      "size": 2675,
+      "sha256": "b35caaf0dbb20f9fa94d44af7f1a4fc2d4956599b3e20066d4992dab591bcc20"
+    },
+    {
+      "path": "README_EN.md",
+      "size": 706,
+      "sha256": "af3b92b87bba16d8dc6644ba1803addccecf1946a6b801e09381f036c52714ae"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size": 1663,
+      "sha256": "61f7c29e93b1b949781142d403ef1cfcc718c6f8bf53eeaa55b3fbca7eaadcf9"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 285,
+      "sha256": "594985968e2eda953a83bc830e2bcadfcf40e90ac1321e66e23f39df5582bc3b"
+    },
+    {
+      "path": "VALIDATION_REPORT.json",
+      "size": 3655,
+      "sha256": "b41a4c7818cbb66d1b9476d1892aade95c7c25832c4a45814a174d4603e8efd0"
+    },
+    {
+      "path": "VERSION",
+      "size": 6,
+      "sha256": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67"
+    },
+    {
+      "path": "assets/architecture_cn.png",
+      "size": 178072,
+      "sha256": "14bd02ed13cb3e3dccb44f1920f47bf4e2b8c79715c913073083e5485937087a"
+    },
+    {
+      "path": "assets/benchmark_matrix_cn.png",
+      "size": 117533,
+      "sha256": "093e815201ec84a2b8bdbbf35fa59a9b38d04fcb4a5a0063a862664ddfb55563"
+    },
+    {
+      "path": "assets/release_train_cn.png",
+      "size": 95245,
+      "sha256": "c1dea82863b704fad97757e1659f0fe23ece641ae89e1afa5a1569fad359620d"
+    },
+    {
+      "path": "benchmark/README.md",
+      "size": 725,
+      "sha256": "8ca699b538bded8f3df84f1aba8f640d55180bbd053d313b3f17b7f275d651dd"
+    },
+    {
+      "path": "benchmark/scenario_index.csv",
+      "size": 7320,
+      "sha256": "b0021bd0bf0d2e01ea0308f5350160ac6ebb610d00af47f8aacf4d877a8c7569"
+    },
+    {
+      "path": "benchmark/scenarios.jsonl",
+      "size": 168339,
+      "sha256": "b8894c6e8af78167e66e8e28ec21977af5024f9107f09c70b0196616dacd58a1"
+    },
+    {
+      "path": "docs/段玉聪_DIKWP-PACT_开放意图保障与认知轨迹关键项目_v0.1.0_CN_最终交付版.docx",
+      "size": 386940,
+      "sha256": "2c4f84c2f678d853593b0f781010f9574a62ff8f4fd3def45bd9c019d2f6a6b2"
+    },
+    {
+      "path": "examples/traces/always_allow_examples.json",
+      "size": 1060,
+      "sha256": "25eacbd45751aab5573a4e303df09da6ceef580cde7931004da68f54d9ae65f9"
+    },
+    {
+      "path": "examples/traces/keyword_guard_examples.json",
+      "size": 2685,
+      "sha256": "4ab21b6a2c37c4322d435dcbf2fe213362a78069f9402db5dd7d8e1c57b0d484"
+    },
+    {
+      "path": "examples/traces/pact_reference_examples.json",
+      "size": 3624,
+      "sha256": "8f4d9a444083f3e778cb0b08bb7e2bb7cc6e7cc7cb1d0800341cf901b3e4d2ef"
+    },
+    {
+      "path": "governance/RELEASE_GATES.md",
+      "size": 892,
+      "sha256": "b2846a83caab373e921adfcb9538291f7e7d54b9ff3bbb5a1454c0e802ebb7e8"
+    },
+    {
+      "path": "governance/REPLICATION_REPORT_TEMPLATE.md",
+      "size": 298,
+      "sha256": "1f3b55877a9a93388114f51f30bf23423ab0f44c65a0a90b5c743e3583630d0b"
+    },
+    {
+      "path": "governance/SUBMISSION_RULES.md",
+      "size": 480,
+      "sha256": "e92dd43185f8b62e6ae2f648f1bfe8c7b53f73ee7c33b0b9d4622ab24ac7741b"
+    },
+    {
+      "path": "interop/NIST_EU_OECD_CROSSWALK.md",
+      "size": 814,
+      "sha256": "1a9b80f11c4fe7b265feadc2e501090bad095cf07181df5e85b1e1375a1a29aa"
+    },
+    {
+      "path": "outputs/audit_report_always_allow.md",
+      "size": 798,
+      "sha256": "21981addd11dd58e601d9928f2d2de31cddff794c3dd9dc6d9f03476562bab21"
+    },
+    {
+      "path": "outputs/audit_report_keyword_guard.md",
+      "size": 772,
+      "sha256": "af1e33798acc221bd6b4946be38e006f9cde1a59bd6e5adb765cbd3620878e8a"
+    },
+    {
+      "path": "outputs/audit_report_output_only_guard.md",
+      "size": 815,
+      "sha256": "2836642020090ee02d9be538a1fc9b73bf9446b4d27c60d19eeeafa123d74647"
+    },
+    {
+      "path": "outputs/audit_report_pact_reference.md",
+      "size": 788,
+      "sha256": "3aa26440cfd13c8383c39491fed4b24f3dfdfa96ace4d1e11606cee44a452e7a"
+    },
+    {
+      "path": "outputs/baseline_summary.json",
+      "size": 2236,
+      "sha256": "c9da70519be9b2ccbd5dee73490689fc5d6e580994afd5ed14d2267546f1ef6e"
+    },
+    {
+      "path": "outputs/leaderboard.csv",
+      "size": 604,
+      "sha256": "a682cd4fbbe0bb14825ea17005f7bda0bd0e3c1ea86a308dae61c9529615fa28"
+    },
+    {
+      "path": "outputs/traces_always_allow.json",
+      "size": 38090,
+      "sha256": "d33c586b4a5a2d54da95755eb66a1678d08559773eb98c308491e24813c005ec"
+    },
+    {
+      "path": "outputs/traces_keyword_guard.json",
+      "size": 97286,
+      "sha256": "ebec8b1c79ac4aebf3f146012acf7df4467abfb66616bda180bac8c2d21551cc"
+    },
+    {
+      "path": "outputs/traces_output_only_guard.json",
+      "size": 79766,
+      "sha256": "808afd5cd7f4b9d2f94243e7838a90c46ab85151048518e969a1b76c1f60d5e4"
+    },
+    {
+      "path": "outputs/traces_pact_reference.json",
+      "size": 131264,
+      "sha256": "19d616e144957b442588e9a29557740b71d2aa99f8b6a880f81ffe0a770cd41b"
+    },
+    {
+      "path": "paper/ABSTRACT_EN.md",
+      "size": 1032,
+      "sha256": "b565de500ff42fa0ebaedcf333012a99a80bedc994bcf3d577702bd5e32f76fb"
+    },
+    {
+      "path": "paper/MANUSCRIPT_OUTLINE_CN.md",
+      "size": 580,
+      "sha256": "d759d36124135566199bafce557a875f3926e3d62a0b3f74523aa0e450e196a5"
+    },
+    {
+      "path": "paper/PREREGISTRATION.md",
+      "size": 1539,
+      "sha256": "913950586560b3219e16ea08cfcfd669054f9eed770868d4130d1af7a6aefd46"
+    },
+    {
+      "path": "project/90_DAY_PLAN.md",
+      "size": 1170,
+      "sha256": "4179d4ae2c3022c3913e3756a4919ad52982ec3b12b696806eef16bd65941959"
+    },
+    {
+      "path": "project/GITHUB_PUBLICATION_RUNBOOK_CN.md",
+      "size": 2205,
+      "sha256": "12d4eece51f6f5ecc5df11932afc4e4e66e6f35f57d5d308dab98b7a8dcc377e"
+    },
+    {
+      "path": "project/PROJECT_BOARD_IMPORT.csv",
+      "size": 1692,
+      "sha256": "a4f794be6739671fa7f8fb6029da6aba6b4bef94c30296837e9c3d6f95d3e938"
+    },
+    {
+      "path": "prototype/index.html",
+      "size": 177056,
+      "sha256": "d56f1b02bfb4fb6a2a58352b77d0cf95093fd95597dc4220af5b9c3d4d416b18"
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 672,
+      "sha256": "b15312889cf99656b543617e38ea56fd4ad2b83575704aa4f7b738c3acd87b81"
+    },
+    {
+      "path": "qa/a11y_final.json",
+      "size": 248,
+      "sha256": "3c8ca8176cd97346c8ef79cbe39d6227d8498fbfa7df3bcca123be797db5f487"
+    },
+    {
+      "path": "qa/baseline_stdout.json",
+      "size": 2237,
+      "sha256": "c0a2dce801e24d0bed71d8e21459dd2289491ea87b8edcfe54307f143b8ca27b"
+    },
+    {
+      "path": "qa/clean_environment.txt",
+      "size": 3679,
+      "sha256": "8a54db2684360ae04d4110a3b1e3b29907b3b7c1e90cb0312bba00183bcfa22a"
+    },
+    {
+      "path": "qa/docx_stats.json",
+      "size": 149,
+      "sha256": "6049097123e816150be825ece2772c43c80db42b94836a0a072291ec3f25aec0"
+    },
+    {
+      "path": "qa/js_syntax.txt",
+      "size": 38,
+      "sha256": "321bf92df0b9a3b2eab88e020033a55b8f1da6dd71aaf101582e8d36e961a6fb"
+    },
+    {
+      "path": "qa/schema_validation.json",
+      "size": 637,
+      "sha256": "19b72e64f304587d3dc5947ff9cf752b5dd2319be87c716f667264bb90eec0c3"
+    },
+    {
+      "path": "qa/unittest.txt",
+      "size": 886,
+      "sha256": "cf232e15e81fbdb934b0c160d6a13edc4655e0a676ea8bdb1b1cfe5c5aeea5e8"
+    },
+    {
+      "path": "references/SOURCE_SNAPSHOT.md",
+      "size": 2972,
+      "sha256": "d679b30f35589694bd17780af8852237a4e5107bb2061c42cad8785f27a4a343"
+    },
+    {
+      "path": "references/source_snapshot.json",
+      "size": 3453,
+      "sha256": "726b26f2d6c10a9025e2d28cd597c1bd6801a0d5357a11d57d0ef0b7c560af4b"
+    },
+    {
+      "path": "schemas/audit_finding.schema.json",
+      "size": 857,
+      "sha256": "49b9c5b5c7cb67b555240aed94239ac9027beb09c22825bb8c4e9ec6ffd23a1f"
+    },
+    {
+      "path": "schemas/purpose_contract.schema.json",
+      "size": 830,
+      "sha256": "1b1ee3727a4a803d5d1ccd84831358789abf511766c3c1e6a3dc9e986153947a"
+    },
+    {
+      "path": "schemas/scenario.schema.json",
+      "size": 1355,
+      "sha256": "b8f1e3192f7bf0e5af10a684c04c09d78da1e974e70840ec2dad905f092a47ff"
+    },
+    {
+      "path": "schemas/submission.schema.json",
+      "size": 701,
+      "sha256": "c84eda3290cf269b89d02a46d5fe189a78c2dde19341a43d5f02fb40736d11c4"
+    },
+    {
+      "path": "schemas/trace.schema.json",
+      "size": 1688,
+      "sha256": "5317c0983feaf9df6f45a1addc551373c2bf62ab7618cc7206b149f389ca26a3"
+    },
+    {
+      "path": "scripts/run_baselines.py",
+      "size": 191,
+      "sha256": "b653a6aa911cc2a02771a70c2d556af6eb681fa339d29c46d1cadc768fb80bde"
+    },
+    {
+      "path": "src/dikwp_pact/__init__.py",
+      "size": 58,
+      "sha256": "4816a903f974d7367f899c92bbd01a5b0d6e2cab1bca4c60cae321c4a38589e1"
+    },
+    {
+      "path": "src/dikwp_pact/__main__.py",
+      "size": 47,
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+    },
+    {
+      "path": "src/dikwp_pact/baselines.py",
+      "size": 5317,
+      "sha256": "8602d559d9a607537946ca2e3dd42f0a775a449f100cb733a5baf393bb3b7e7b"
+    },
+    {
+      "path": "src/dikwp_pact/cli.py",
+      "size": 3549,
+      "sha256": "3b16487f278493065dba5992acfa945d8f5a99c31c38cc2e1efd92b0d7c82a07"
+    },
+    {
+      "path": "src/dikwp_pact/model.py",
+      "size": 1344,
+      "sha256": "eaba13ee99132dd11f3cb490a8380794a87737d0cc86f07e35277c3762daae59"
+    },
+    {
+      "path": "src/dikwp_pact/reporting.py",
+      "size": 1147,
+      "sha256": "fba0def07a32cbc8e792d2c04d899db449a1adcfcab970f45060fffc22d8c107"
+    },
+    {
+      "path": "src/dikwp_pact/scoring.py",
+      "size": 4618,
+      "sha256": "ebbf0eb4cc52a63d16e5b07c22c2fd52b504985271e2b061eaac088855b11ba7"
+    },
+    {
+      "path": "tests/test_core.py",
+      "size": 2742,
+      "sha256": "ff564c92812bac886570284bec871a4e3d270b08bf8911b51f3632e556b8b077"
+    }
+  ]
+}

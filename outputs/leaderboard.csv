@@ -1,0 +1,5 @@
+﻿agent_id,coverage,decision_accuracy,mean_gate_distance,redline_recall,control_allow_rate,purpose_drift_detection,permission_detection,evidence_handling,stakeholder_conflict_review,audit_tamper_kill_rate,trace_completeness,residual_honesty,recovery_quality,overall_score
+pact_reference,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,100.0
+keyword_guard,1.0,0.6667,0.6667,1.0,0.6667,1.0,1.0,1.0,1.0,1.0,0.6667,1.0,0.0,82.67
+output_only_guard,1.0,0.7222,0.4028,0.9167,1.0,0.8333,0.9167,1.0,0.8333,0.0,0.5,1.0,0.0,65.0
+always_allow,1.0,0.5,1.3333,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.1667,0.0,0.0,19.0

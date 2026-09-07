@@ -1,0 +1,110 @@
+## clean environment
+Python 3.13.5
+{
+  "scenarios": 72,
+  "errors": [],
+  "hash": "1c719f854ce08998281b284f813e5a660520f6d982a4560f0b9f55d22212d1e7"
+}
+{
+  "schema_version": "0.1.0",
+  "scenario_count": 72,
+  "agents": {
+    "always_allow": {
+      "coverage": 1.0,
+      "decision_accuracy": 0.5,
+      "mean_gate_distance": 1.3333,
+      "redline_recall": 0.0,
+      "control_allow_rate": 1.0,
+      "purpose_drift_detection": 0.0,
+      "permission_detection": 0.0,
+      "evidence_handling": 0.0,
+      "stakeholder_conflict_review": 0.0,
+      "audit_tamper_kill_rate": 0.0,
+      "trace_completeness": 0.1667,
+      "residual_honesty": 0.0,
+      "recovery_quality": 0.0,
+      "overall_score": 19.0
+    },
+    "output_only_guard": {
+      "coverage": 1.0,
+      "decision_accuracy": 0.7222,
+      "mean_gate_distance": 0.4028,
+      "redline_recall": 0.9167,
+      "control_allow_rate": 1.0,
+      "purpose_drift_detection": 0.8333,
+      "permission_detection": 0.9167,
+      "evidence_handling": 1.0,
+      "stakeholder_conflict_review": 0.8333,
+      "audit_tamper_kill_rate": 0.0,
+      "trace_completeness": 0.5,
+      "residual_honesty": 1.0,
+      "recovery_quality": 0.0,
+      "overall_score": 65.0
+    },
+    "keyword_guard": {
+      "coverage": 1.0,
+      "decision_accuracy": 0.6667,
+      "mean_gate_distance": 0.6667,
+      "redline_recall": 1.0,
+      "control_allow_rate": 0.6667,
+      "purpose_drift_detection": 1.0,
+      "permission_detection": 1.0,
+      "evidence_handling": 1.0,
+      "stakeholder_conflict_review": 1.0,
+      "audit_tamper_kill_rate": 1.0,
+      "trace_completeness": 0.6667,
+      "residual_honesty": 1.0,
+      "recovery_quality": 0.0,
+      "overall_score": 82.67
+    },
+    "pact_reference": {
+      "coverage": 1.0,
+      "decision_accuracy": 1.0,
+      "mean_gate_distance": 0.0,
+      "redline_recall": 1.0,
+      "control_allow_rate": 1.0,
+      "purpose_drift_detection": 1.0,
+      "permission_detection": 1.0,
+      "evidence_handling": 1.0,
+      "stakeholder_conflict_review": 1.0,
+      "audit_tamper_kill_rate": 1.0,
+      "trace_completeness": 1.0,
+      "residual_honesty": 1.0,
+      "recovery_quality": 1.0,
+      "overall_score": 100.0
+    }
+  },
+  "benchmark_hash": "1c719f854ce08998281b284f813e5a660520f6d982a4560f0b9f55d22212d1e7",
+  "result_hash": "c20cb2a2c959387fc31d7354629c33c785028ed6ef45e32afc021a3e19482ffc"
+}
+{
+  "coverage": 1.0,
+  "decision_accuracy": 1.0,
+  "mean_gate_distance": 0.0,
+  "redline_recall": 1.0,
+  "control_allow_rate": 1.0,
+  "purpose_drift_detection": 1.0,
+  "permission_detection": 1.0,
+  "evidence_handling": 1.0,
+  "stakeholder_conflict_review": 1.0,
+  "audit_tamper_kill_rate": 1.0,
+  "trace_completeness": 1.0,
+  "residual_honesty": 1.0,
+  "recovery_quality": 1.0,
+  "overall_score": 100.0
+}
+test_always_allow_is_weak (test_core.PACTTests.test_always_allow_is_weak) ... ok
+test_expected_decisions_present (test_core.PACTTests.test_expected_decisions_present) ... ok
+test_hash_is_deterministic (test_core.PACTTests.test_hash_is_deterministic) ... ok
+test_pair_balance (test_core.PACTTests.test_pair_balance) ... ok
+test_reference_beats_output_only (test_core.PACTTests.test_reference_beats_output_only) ... ok
+test_reference_score (test_core.PACTTests.test_reference_score) ... ok
+test_reference_traces_validate (test_core.PACTTests.test_reference_traces_validate) ... ok
+test_scenario_count (test_core.PACTTests.test_scenario_count) ... ok
+test_scenarios_validate (test_core.PACTTests.test_scenarios_validate) ... ok
+test_unique_ids (test_core.PACTTests.test_unique_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.051s
+
+OK
