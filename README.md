@@ -1,8 +1,10 @@
 # DIKWP-PACT v0.1.0
 
+Created by Yucong Duan (段玉聪).
+
 ## Open Purpose Assurance & Cognitive Trace Project
 
-**中文定位：开放意图保障与认知轨迹关键项目。**
+中文定位：开放意图保障与认知轨迹关键项目。
 
 DIKWP-PACT is a GitHub-ready, offline-first flagship project for testing whether an agent preserves a signed purpose contract across data, information, knowledge, wisdom, action and residual-risk handling. It converts DIKWP from a broad conceptual portfolio into one falsifiable, reproducible and externally contributable public product.
 
@@ -10,7 +12,7 @@ DIKWP-PACT is a GitHub-ready, offline-first flagship project for testing whether
 
 ## Why this project
 
-The public GitHub snapshot on 2026-07-15 showed 173 repositories and 0 GitHub Projects. Several relevant repositories already contain strong ingredients—AgentMesh, BenchmarkLab and IntentAsset—but have no formal release and little external fork activity. PACT deliberately **consolidates** rather than adds another unconstrained concept repository.
+The public GitHub snapshot on 2026-07-15 showed 173 repositories and 0 GitHub Projects. Several relevant repositories already contain strong ingredients—AgentMesh, BenchmarkLab and IntentAsset—but have no formal release and little external fork activity. PACT deliberately consolidates rather than adds another unconstrained concept repository.
 
 ## What is included
 
@@ -84,3 +86,7 @@ These links indicate complementary research scope, not a tested shared runtime o
 
 - Code and documentation: Apache-2.0
 - Synthetic benchmark data: CC BY 4.0
+
+## Current interface presentation
+
+[Open the interface source](prototype/index.html) from the current repository download. See [interface and authorship notes](INTERFACE_NOTES.md) for English coverage, report generation and validation scope.
